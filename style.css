@@ -1,0 +1,77 @@
+body {
+    background: white;
+}
+.container {
+    position: relative;
+}
+
+.btn {
+    border: none;
+    background: #f1f2f1;
+    padding: 0.7em;
+    margin-bottom: 1em;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity:0.7;
+    box-shadow: 1px 1px 2px 1px #ddd;
+}
+.confirmation-modal {
+    border: 1px solid black;
+    display: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 370px;
+    margin: 0 auto;
+}
+/* when a user clicks on the button this will show*/
+.show {
+    display: block;
+}
+.confirmation-modal--title > p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.confirmation-modal--message {
+    background: white;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.confirmation-modal--message > p {
+    text-align: center;
+}
+
+.confirmation-modal--btn {
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel-btn {
+    background-color: darkgray;
+    margin-right: 0.2em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+}
+
+.cancel-btn:hover ,
+.cancel-btn:focus {
+    opacity: 0.9;
+    color: #f2f2f2;
+    text-shadow: 1px 2px black;
+}
+
+.delete-btn {
+    background: orangered;
+    color:white;
+    padding: 0.5em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+}

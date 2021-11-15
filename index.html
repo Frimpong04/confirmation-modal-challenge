@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn" id="open">Delete</button>
+        <div class="confirmation-modal" id="confirmation-caution">
+            <div class="confirmation-modal--title"><p>Are you sure you want to delete?</p></div>
+            <div class="confirmation-modal--message"><p>This action cannot be undone</p></div>
+            <div class="confirmation-modal--btn">
+                <button class="cancel-btn" id="confirm-cancel">cancel</button>
+                <button class="delete-btn">delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="confirmation-modal.js"></script>
+</body>
+</html>
